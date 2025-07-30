@@ -6,7 +6,6 @@ from livekit.plugins import openai, elevenlabs, silero
 
 from tools.search_web import search_web
 from tools.query_papers import query_papers
-from tools.gpu_prices import gpu_prices
 
 load_dotenv()
 logging.basicConfig(level=logging.INFO)
@@ -29,7 +28,7 @@ async def entrypoint(ctx: JobContext):
     await ctx.connect()
 
     agent = Agent(instructions=SYSTEM_PROMPT,
-                  tools=[search_web, query_papers, gpu_prices])
+                  tools=[search_web, query_papers])
 
     session = AgentSession(
         turn_detection="vad",          # ★ crucials
