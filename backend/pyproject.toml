@@ -1,0 +1,24 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Backend logic for Dua, a research assistant who will never let you loose an arguement with numbers."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.116.1",
+    "jigsawstack>=0.2.9",
+    "livekit-agents[elevenlabs,openai,silero]==1.2.2",
+    "livekit-api>=1.0.5",
+    "python-dotenv>=1.1.1",
+    "sounddevice>=0.5.2",
+    "tavily-python>=0.7.10",
+    "uvicorn>=0.35.0",
+    "openai>=1.97.1",
+    "llama-index==0.10.38",
+    "llama-index-vector-stores-qdrant>=0.2.17",
+    "qdrant-client>=1.15.0",
+    "pdfplumber>=0.11.7",
+    "httpx>=0.28.1",
+    "bs4>=0.0.2",
+    "python-multipart>=0.0.20",
+]

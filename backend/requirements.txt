@@ -1,0 +1,12 @@
+# --- core ---
+livekit-agents[openai,elevenlabs]==1.2.2    # 1.x API (AgentSession built‑in)
+openai>=1.97.1
+llama-index==0.10.38
+llama-index-vector-stores-qdrant>=0.2.17
+qdrant-client>=1.15.0
+tavily-python>=0.7.10
+pdfplumber>=0.11.7
+python-dotenv>=1.1.1
+httpx>=0.28.1
+bs4>=0.0.2
+jigsawstack
