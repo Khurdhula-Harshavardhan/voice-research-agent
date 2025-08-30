@@ -83,6 +83,3 @@ Harry friendly and knowledgeable research assistant who helps users find informa
 - Clone Dua's voice.
 - Make the conversation a smoother exp, provide the user with settings on UI where they can set speech rate (rate at which the turns happen), speed (rate at which the agent responds).
 - Better RAG, at times the model clearly Hallucinates. No excuses here. Could have done a better job here.
-
-## Closure
-It was fun, I messed up the interview was juggling a production bug while handling customers and my team. Zoom messed up. But was able to work a little more later in the night. Thank you for your time and patience. I sincerely appreciate it. 
